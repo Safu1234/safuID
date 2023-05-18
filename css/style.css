@@ -36,3 +36,14 @@ span:hover{
     margin: 30px 0;
     border-radius: 5px;
 }
+@media(max-width:450px){
+    nav{
+        display: flow-root;
+    }
+    img {
+        width: 400px;
+    }
+    .divh h1 {
+        font-size: 60px;
+    }
+}
